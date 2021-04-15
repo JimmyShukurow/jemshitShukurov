@@ -1,0 +1,72 @@
+body {
+    background-image: url('images/resumeBackgroundImage4.jpg');
+    background-size: cover;
+}
+.pageOne {
+    position: absolute;
+    left: 35%;
+    top: 100px;
+    background-color: antiquewhite;
+    width: 30%;
+    height: 700px;
+    box-shadow: 0 0 10px 5px rgb(233, 220, 34);
+    z-index: 3;
+    border-radius: 20px;
+}
+.pageTwo {
+    position: absolute;
+    left: 25%;
+    top: 130px;
+    background-color: antiquewhite;
+    width: 30%;
+    height: 700px;
+    box-shadow: 0 0 10px 5px rgb(34, 233, 34);
+    z-index: 2;
+    opacity: 0.7;
+    border-radius: 20px;
+}
+.pageThree {
+    position: absolute;
+    left: 15%;
+    top: 160px;
+    background-color: antiquewhite;
+    width: 30%;
+    height: 700px;
+    box-shadow: 0 0 10px 5px rgb(34, 160, 233);
+    z-index: 1;
+    opacity: 0.5;
+    border-radius: 20px;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    clear: both;
+}
+.profileImage {
+    position: absolute;
+    display: inline;
+    border-radius: 50%;
+    float: right;
+    right: 30px;
+    box-shadow: 0 0 5px 5px grey;
+}
+.fullname {
+    display: block;
+    margin: 10px 50px;
+}
+.name  {
+    position: absolute;
+    margin-top: 50px;
+    font-size: 28px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: blue;
+}
+.profession  {
+    position: absolute;
+    margin: 80px 60px;
+    font-size: 18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: red;
+}
