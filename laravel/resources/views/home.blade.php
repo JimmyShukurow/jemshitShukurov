@@ -16,7 +16,7 @@
                     <span class="fullname">
                         <span class="name">JEMSHIT SHUKUROV</span>
                         <span class="profession">Fullstack Developer</span>
-                        <img class="profileImage" src="/images/JimiSquare.jpg" alt="JemshitShukurov" width="200" height="200">
+                        <img class="profileImage" src="/images/JimiSquare.jpg" alt="JemshitShukurov">
                     </span>  
                 
                 <div class="details">
